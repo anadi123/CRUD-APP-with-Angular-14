@@ -13,7 +13,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-##Steps
+## Steps
+
 1.Step 1: Create New App
 
 2.Step 2: Install Bootstrap
