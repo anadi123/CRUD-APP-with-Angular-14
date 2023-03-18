@@ -13,6 +13,51 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+##Steps
+1.Step 1: Create New App
+
+2.Step 2: Install Bootstrap
+
+3.Step 3: Create Post Module--After creating successfully app, we need to create post module using angular cli command. angular provide command to create module with routing in angular application.
+
+4.Step 4: Create Component For Module--add new component to our post module using bellow command, so let's create index, view, create and edit component for admin module.
+
+5.Step 5: Create Route--In this step, we will simply create route for index, create, edit and view using generated new component. so we have to update our post-routing module file.
+
+6.Step 6: Create Interface--in this step, we will create interface using angular command for post module. we will use post interface with Observable.
+
+7.Step 7: Create Services--Here, we will create post service file and we will write and call all web services. we will create getAll(), create(), find(), update() and delete().We are using https://jsonplaceholder.typicode.com web site api for now. they provide to easily use.
+
+8.Step 8: Update Component Logic and Template--Now in this step, we will work on our created component for crud application. we create four component for our crud application. now we will go one by one for creating list page, create page, edit page and view page.
+
+1) List Page Template and Component
+
+now, here we will work on post index component. we will call post service and display it with create, edit, delete and view button. so let's update it.
+
+2) Create Page Template and Component
+
+now here, we will use reactive form store data into server using web services. so let's update it.
+
+3) Edit Page Template and Component
+
+now here, we will use reactive form store data into server using web services for update post information. so let's update it.
+
+4) Detail Page Template and Component
+
+now here, we will display data into server using web services for update post information. so let's update it.
+
+9.Step 9: Import to Module File--Now in last step, we will import our post module and HttpClientModule to main file and also other to post module.
+
+Run Angular App:
+
+All the required steps have been done, now you have to type the given below command and hit enter to run the Angular app:
+
+ng serve
+
+Now, Go to your web browser, type the given URL and view the app output:
+
+http://localhost:4200/post
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
