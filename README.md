@@ -1,6 +1,9 @@
 # MyCrudApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+In this example we will create a post crud module with a list, view, insert, update and delete the post. we will use the web service API of jsonplaceholder. so we can easily use their created API. jsonplaceholder provides all APIs that we require like list, view, create, delete and update.
+
+
 
 ## Development server
 
